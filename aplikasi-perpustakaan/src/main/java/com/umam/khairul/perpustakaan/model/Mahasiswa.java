@@ -1,4 +1,4 @@
-package com.umam.khairul.perpustakaan.master;
+package com.umam.khairul.perpustakaan.model;
 
 public class Mahasiswa {
 
