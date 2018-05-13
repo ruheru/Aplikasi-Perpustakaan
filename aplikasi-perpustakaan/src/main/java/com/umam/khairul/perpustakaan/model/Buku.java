@@ -28,7 +28,6 @@ public class Buku {
 	private String nama;
 	
 	@Column
-	@NotEmpty @NotNull
 	private Integer tahunTerbit;
 
 	public String getId() {
@@ -61,5 +60,11 @@ public class Buku {
 
 	public void setTahunTerbit(Integer tahunTerbit) {
 		this.tahunTerbit = tahunTerbit;
+	}
+
+	@Override
+	public String toString() {
+		return "Buku [id=" + id + ", codePenerbit=" + codePenerbit + ", nama=" + nama + ", tahunTerbit=" + tahunTerbit
+				+ "]";
 	}
 }

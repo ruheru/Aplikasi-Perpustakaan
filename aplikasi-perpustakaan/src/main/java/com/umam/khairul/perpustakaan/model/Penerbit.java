@@ -51,6 +51,11 @@ public class Penerbit {
 	public void setNama(String nama) {
 		this.nama = nama;
 	}
+
+	@Override
+	public String toString() {
+		return "Penerbit [id=" + id + ", code=" + code + ", nama=" + nama + "]";
+	}
 	
 	
 
